@@ -1,0 +1,23 @@
+body {
+   background: #f5f5f5;
+}
+
+.ccol-sm-6, .col-xs-6, .col-md-6 {
+   float:left;
+   width:50%;
+   padding:1%;
+   border: 1px dotted #ccc;
+   background: #fff;
+}
+.col-xs-12, .col-sm-12, .col-md-12{
+   float:left;
+   width:100%;
+   padding:1%;
+   border: 1px dotted #ccc;
+   background: #fff;
+}
+img { /* Makes sure your images stay within their columns */
+   max-width: 100%;
+   width: auto;
+   height: auto;
+}
