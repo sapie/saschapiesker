@@ -19,14 +19,14 @@
 <body <?php body_class(); ?>>
 	<div class="header">
 		<div class="container">
-			<div class="c2">
+			<div class="c4">
 				<a href="<?php bloginfo('url'); ?>">
-					<img class="logo" src="<?php bloginfo('url'); ?>/wp-content/themes/saschapiesker/images/logo.png" alt="Wort Bild Marke Sascha Piesker">
+					<img class="logo" src="<?php bloginfo('url'); ?>/wp-content/themes/saschapiesker/images/logo.png" alt="Bild Marke Sascha Piesker">
 				</a>
 			</div>
-			<div class="c1 header-right">
+			<div class="c4 header-right">
 				<div class="c3" ><a href="<?php bloginfo('url'); ?>/kontakt">Kontakt</a></div>
-				<div class="c3" ><a href="<?php bloginfo('url'); ?>">Home</a></div>
+				<div class="c3" ><a href="<?php bloginfo('url'); ?>">Projekte</a></div>
 			</div>
 		</div>
 	</div> 

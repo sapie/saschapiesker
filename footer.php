@@ -4,28 +4,25 @@
  * 
  * @package bootstrap-basic
  */
-?>
-			
-			
+?>			
 		<footer class="footer" role="contentinfo">
 			<div class="container">
-				<div class="c1">
+				<div class="c3">
 					<ul>
-						<li>Desktop</li>
-						<li>Mobile</li>
+						<li>Impressum</li>
 					</ul>
 				</div>
-				<div class="c2">
+				<div class="c3">
 					<div class="social">
 						<ul class="icons">
-							<li >mail<a class="mail" href="mailto:info@saschapiesker.com"></a></li>
-							<li >linkedin<a class="linkdin" href="https://de.linkedin.com/in/saschapiesker"></a></li>
-							<li >xing<a class="xing" href="https://www.xing.com/profile/Sascha_Piesker2"></a></li>
+							<li ><a class="mail" href="mailto:info@saschapiesker.com">mail</a></li>
+							<li ><a class="linkdin" href="https://de.linkedin.com/in/saschapiesker">linkedin</a></li>
+							<li ><a class="xing" href="https://www.xing.com/profile/Sascha_Piesker2">xing</a></li>
 						</ul>
 					</div>
-				</div>
-				<div class="container copyright">
-					<p>&copy;&nbsp;2016, Sascha Piesker</p>
+					<div class="c3 copyright">
+						<p>&copy;&nbsp;<?php echo date('Y'); ?>, Sascha Piesker</p>
+					</div>
 				</div>
 			</div>
 			<?php wp_footer(); ?>
